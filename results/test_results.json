@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-11-03T16:55:33.724257",
+  "model": "openai/clip-vit-base-patch32",
+  "device": "cpu",
+  "prompts": [
+    {
+      "prompt": "a dog playing in the park",
+      "embedding_shape": [
+        1,
+        512
+      ],
+      "embedding_dim": 512,
+      "min_value": -0.10971858352422714,
+      "max_value": 0.5104849338531494,
+      "mean_value": 0.000643694307655096,
+      "std_value": 0.044189486652612686,
+      "norm": 1.0
+    },
+    {
+      "prompt": "sunset over the ocean with waves",
+      "embedding_shape": [
+        1,
+        512
+      ],
+      "embedding_dim": 512,
+      "min_value": -0.12228292226791382,
+      "max_value": 0.43624213337898254,
+      "mean_value": 0.0023185014724731445,
+      "std_value": 0.044133320450782776,
+      "norm": 1.0
+    },
+    {
+      "prompt": "a child eating ice cream happily",
+      "embedding_shape": [
+        1,
+        512
+      ],
+      "embedding_dim": 512,
+      "min_value": -0.10738391429185867,
+      "max_value": 0.47611185908317566,
+      "mean_value": 0.003338078735396266,
+      "std_value": 0.044067930430173874,
+      "norm": 1.0
+    },
+    {
+      "prompt": "people walking in a busy street",
+      "embedding_shape": [
+        1,
+        512
+      ],
+      "embedding_dim": 512,
+      "min_value": -0.09930729120969772,
+      "max_value": 0.5196845531463623,
+      "mean_value": 0.002912952331826091,
+      "std_value": 0.04409806802868843,
+      "norm": 0.9999999403953552
+    },
+    {
+      "prompt": "mountains covered with snow",
+      "embedding_shape": [
+        1,
+        512
+      ],
+      "embedding_dim": 512,
+      "min_value": -0.10347791016101837,
+      "max_value": 0.5213971138000488,
+      "mean_value": 0.001942399307154119,
+      "std_value": 0.044151466339826584,
+      "norm": 0.9999999403953552
+    }
+  ]
+}
