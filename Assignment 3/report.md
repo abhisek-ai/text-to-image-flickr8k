@@ -358,15 +358,6 @@ Results provide actionable insights for:
 
 The model demonstrates proof-of-concept for conditional generation with clear parameter sensitivity insights that inform future iterations toward production-grade systems.
 
----
-
-## 5. References
-
-1. Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. *NeurIPS*.
-2. Nichol, A., & Dhariwal, P. (2021). Improved Denoising Diffusion Probabilistic Models. *ICML*.
-3. Ramesh, A., et al. (2022). Hierarchical Text-Conditional Image Generation with CLIP Latents. *arXiv:2204.06125*.
-4. Radford, A., et al. (2021). Learning Transferable Visual Models From Natural Language Supervision. *ICML*.
-5. Ho, J., & Salimans, T. (2022). Classifier-Free Diffusion Guidance. *NeurIPS Workshop*.
 
 ---
 
