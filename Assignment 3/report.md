@@ -1,6 +1,5 @@
 # Text-to-Image Diffusion Model: Evaluation Report
 
-**Student:** Arav Pandey  
 **Date:** November 16, 2025  
 **Course:** Generative AI  
 
