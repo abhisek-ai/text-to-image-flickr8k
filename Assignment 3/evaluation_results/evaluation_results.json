@@ -1,0 +1,45 @@
+{
+  "cfg_1.0": {
+    "clip_score": 22.265213012695312,
+    "clip_std": 0.1887683868408203,
+    "inception_score": 2.420501470565796,
+    "inception_std": 0.1,
+    "num_samples": 2
+  },
+  "cfg_3.0": {
+    "clip_score": 22.22929286956787,
+    "clip_std": 0.5179471969604492,
+    "inception_score": 3.2812087535858154,
+    "inception_std": 0.1,
+    "num_samples": 2
+  },
+  "cfg_7.5": {
+    "clip_score": 22.32703399658203,
+    "clip_std": 0.1842632293701172,
+    "inception_score": 3.2191758155822754,
+    "inception_std": 0.1,
+    "num_samples": 2
+  },
+  "cfg_12.0": {
+    "clip_score": 22.27341365814209,
+    "clip_std": 0.10692119598388672,
+    "inception_score": 2.4133498668670654,
+    "inception_std": 0.1,
+    "num_samples": 2
+  },
+  "cfg_20.0": {
+    "clip_score": 23.05866241455078,
+    "clip_std": 0.32062721252441406,
+    "inception_score": 2.6587846279144287,
+    "inception_std": 0.1,
+    "num_samples": 2
+  },
+  "schedule_linear": {
+    "clip_score": 22.166431427001953,
+    "clip_std": 0.0
+  },
+  "schedule_cosine": {
+    "clip_score": 22.305164337158203,
+    "clip_std": 0.0
+  }
+}

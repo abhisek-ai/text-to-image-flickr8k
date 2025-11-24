@@ -1,0 +1,38 @@
+[
+  {
+    "cfg": 1.0,
+    "clip_score_mean": 23.020755767822266,
+    "clip_score_std": 0.8850908408737189,
+    "num_samples": 3
+  },
+  {
+    "cfg": 3.0,
+    "clip_score_mean": 21.75017547607422,
+    "clip_score_std": 0.46791077787004415,
+    "num_samples": 3
+  },
+  {
+    "cfg": 5.0,
+    "clip_score_mean": 21.883819580078125,
+    "clip_score_std": 0.23873797647413514,
+    "num_samples": 3
+  },
+  {
+    "cfg": 7.5,
+    "clip_score_mean": 22.357720057169598,
+    "clip_score_std": 0.6598633942978642,
+    "num_samples": 3
+  },
+  {
+    "cfg": 10.0,
+    "clip_score_mean": 22.366206487019856,
+    "clip_score_std": 0.9730874220644572,
+    "num_samples": 3
+  },
+  {
+    "cfg": 15.0,
+    "clip_score_mean": 21.355589548746746,
+    "clip_score_std": 0.6680291091779403,
+    "num_samples": 3
+  }
+]
