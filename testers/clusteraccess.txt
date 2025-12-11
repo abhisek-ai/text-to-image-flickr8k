@@ -1,0 +1,43 @@
+Step 1: Login with Creds
+Step 2: Request Access for GPU Cluster
+command : srun --partition=gpu --gres=gpu:v100-sxm2:1 --cpus-per-task=8 --mem=32GB --time=04:00:00 --pty bash
+Step 3: Check U got it
+command : nvidia-smi
+Step 4: Load modules (cuda,python)
+command : module load cuda/12.3.0 python/3.13.5
+Step 5 : Activate diffusion venv 
+command : source ~/venvs/diffusion/bin/activate
+Step 6 (Final) : Check Files
+command : ls -la
+
+
+Commnads:
+Lets run this
+python livedemo.py \
+    --prompt "A Tokyo Market" \
+    --cfg 7.5 \
+    --output "6.png"
+
+comparing 
+python calculateclip.py \
+    --generated thisnew.png \
+    --reference_dir Flicker8k_Dataset \
+    --prompt "a fluffy white dog runs through the woods with his ears flapping in the breeze"
+
+python calculateclip.py \
+    --generated thisnew.png \
+    --real Flicker8k_Dataset/416106657_cab2a107a5.jpg \
+    --prompt "a fluffy white dog runs through the woods with his ears flapping in the breeze"
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------
+picking at random
+RANDOM_IMG=$(ls Flicker8k_Dataset/*.jpg | sort -R | head -1)
+echo "Image: $RANDOM_IMG"
+
+BASENAME=$(basename $RANDOM_IMG)
+grep "$BASENAME" data/processed/captions_clean.csv | head -1
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------
+picking manually
+ls Flicker8k_Dataset/*.jpg | head -5
+grep "1000268201_693b08cb0e.jpg" data/processed/captions_clean.csv | head -1

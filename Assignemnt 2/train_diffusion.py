@@ -309,18 +309,21 @@ def train(img_dir, captions_file, epochs=5, batch_size=16, lr=1e-4, img_size=64)
 
 # ==================== MAIN ====================
 if __name__ == "__main__":
-    # MODIFY THESE PATHS FOR YOUR SETUP
-    IMG_DIR = "data/processed/samples"
-    CAPTIONS_FILE = "data/processed/captions_filtered.csv"
+    import os
     
-    # Train
+    # Get absolute paths
+    BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    IMG_DIR = os.path.join(BASE_DIR, "Flicker8k_Dataset")
+    CAPTIONS_FILE = os.path.join(BASE_DIR, "data/processed/captions_8k_valid.csv")
+    
+    print(f"Image directory: {IMG_DIR}")
+    print(f"Captions file: {CAPTIONS_FILE}")
+    
     trainer, tokenizer = train(
         img_dir=IMG_DIR,
         captions_file=CAPTIONS_FILE,
-        epochs=5,
+        epochs=10,
         batch_size=16,
         lr=1e-4,
-        img_size=64
+        img_size=128
     )
-    
-    print("\nTraining complete! Checkpoints saved in ./checkpoints/")
