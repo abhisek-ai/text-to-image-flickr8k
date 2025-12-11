@@ -13,7 +13,7 @@ A conditional diffusion model for text-to-image generation, trained on Flickr8k 
 ## Project Overview
 
 **Team Members:**
-- Abhisek Mallick - Dataset preparation & CLIP integration (Assignment 1-2)
+- Abhisek Mallick - Dataset preparation & CLIP integration (Assignment 1-3)
 - Sai Vittal Ayyalasomayajula - Dataset preparation & baseline (Assignment 1)
 - Chirag Verma - Dataset preparation & preprocessing (Assignment 1)
 - Arav Pandey - Model training, evaluation, & analysis (Assignments 2-4)
